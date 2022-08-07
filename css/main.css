@@ -1,0 +1,42 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #fcf5ee;
+}
+
+.title {
+    color: #ffc4d0;
+}
+
+.form-input {
+    background-color:#fbe8e7;
+}
+
+.text {
+    color: #ffc4d0;
+}
+
+.btn-color {
+    background-color: #f7ddde;
+    color: #f37d95 ;
+}
+
+.form-label-check {
+    color: #ffc4d0;
+}
+
+.form-input-check {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}

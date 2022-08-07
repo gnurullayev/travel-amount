@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Sayohat summasi</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="title text-center mb-5">Sayoxat summasin aniqlash</h2>
+
+        <form class="row g-3 form">
+            <div class="col-md-4">
+                <div class="form-check ms-md-5 ps-md-5">
+                    <input class="form-check-input form-input-check" type="checkbox" id="Check1">
+                    <label class="form-check-label ps-1 form-label-check" for="Check1">
+                      Bilet $
+                    </label>
+                </div>
+    
+                <div class="form-check ms-md-5 ps-md-5">
+                    <input class="form-check-input form-input-check" type="checkbox" id="Check2">
+                    <label class="form-check-label ps-1 form-label-check" for="Check2">
+                      Mexmonhona €
+                    </label>
+                </div>
+    
+                <div class="form-check ms-md-5 ps-md-5">
+                    <input class="form-check-input form-input-check" type="checkbox" id="Check3">
+                    <label class="form-check-label ps-1 form-label-check" for="Check3">
+                      Sayoxat €
+                    </label>
+                </div>
+    
+                <div class="form-check ms-md-5 ps-md-5">
+                    <input class="form-check-input form-input-check" type="checkbox" id="Check4">
+                    <label class="form-check-label ps-1 form-label-check" for="Check4">
+                      Sovg'alar € 
+                    </label>
+                </div>
+    
+                <div class="form-check ms-md-5 ps-md-5">
+                    <input class="form-check-input form-input-check" type="checkbox" id="Check5">
+                    <label class="form-check-label ps-1 form-label-check" for="Check5">
+                        Qo'shimcha summa $
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <input id="form-input" class="form-control mb-4" type="number" placeholder="summangizni kiriting" autocomplete="off" aria-label="Sayoxat summasi">
+                <p class="text text-center">Minimal summa  11700000 so'm</p>
+                <button class="btn btn-color d-flex justify-content-center w-50 mx-auto " type="submit" >Yuborish</button>
+            </div>
+        </form>
+
+        <output class="answer-text text-center w-100 mt-5 fs-4"></output>
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
